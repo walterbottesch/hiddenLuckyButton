@@ -1,0 +1,48 @@
+<!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Hidden Button</title>
+      <style>
+	body {
+	  background-color: black;
+	}
+
+
+	div#messageArea {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		color: rgb(83, 175, 19);
+	}
+
+
+	form {
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		padding: 15px;
+		background-color: rgb(83, 175, 19);
+	}
+	form input {
+		background-color: rgb(152, 207, 113);
+		border-color: rgb(83, 175, 19);
+		font-size: 1em;
+	}
+      </style>
+    </head>
+
+    <body>
+      <div>
+      <div id="messageArea"></div>
+	  
+      <form>
+	<input type="text" id="numOfButtons" placeholder="number of buttons">
+	<input type="button" id="applyButton" value="Apply">
+      </form>
+      </div>
+
+	<script src="btn5.js">
+	</script>
+    </body>
+</html>
